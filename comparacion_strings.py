@@ -9,10 +9,7 @@ if nombre1 == nombre2:
 else:
     print('Los nombres no son iguales')
 '''
-def func():
-
-    nombre1 = str(input('Escribe el primer nombre: '))
-    nombre2 = str(input('Escribe el segundo nombre: '))
+def func(nombre1, nombre2):
 
     if nombre1 == nombre2:
         return True
@@ -23,5 +20,7 @@ def rps():
     return True
 '''
 if __name__ == '__main__':
-    resultado = func()
+    nombre1 = str(input('Escribe el primer nombre: '))
+    nombre2 = str(input('Escribe el segundo nombre: '))
+    resultado = func(nombre1, nombre2)
     print(resultado)
