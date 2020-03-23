@@ -1,3 +1,3 @@
-### Proyecto Phyton
+### Curso Python
 
--Desarrollo en progreso v1
+Archivos varios
